@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QuipAppController">
+   <children>
+      <Pane prefHeight="403.0" prefWidth="470.0">
+         <children>
+            <Label fx:id="addLbl" layoutX="70.0" layoutY="69.0" text="What is the addition of" />
+            <Label fx:id="subLbl" layoutX="70.0" layoutY="106.0" text="What is the subtraction of " />
+            <Label fx:id="multiLbl" layoutX="70.0" layoutY="149.0" text="What is the multiplication of " />
+            <Label fx:id="divLbl" layoutX="70.0" layoutY="185.0" text="What is the division of " />
+            <Label fx:id="correctLbl" layoutX="67.0" layoutY="285.0" text="Number of correct answers:" />
+            <Label fx:id="incorrectLbl" layoutX="66.0" layoutY="313.0" text="Number of incorrect answers:" />
+            <Label fx:id="randomLbl" layoutX="70.0" layoutY="38.0" text="Two randomly generated numbers are: " />
+            <Label fx:id="addNum" layoutX="196.0" layoutY="69.0" text="0" />
+            <Label fx:id="subNum" layoutX="216.0" layoutY="106.0" text="0" />
+            <Label fx:id="multiNum" layoutX="229.0" layoutY="149.0" text="0" />
+            <Label fx:id="divNum" layoutX="196.0" layoutY="185.0" text="0" />
+            <Label fx:id="correctNum" layoutX="219.0" layoutY="285.0" text="0" />
+            <Label fx:id="incorrectNum" layoutX="226.0" layoutY="313.0" text="0" />
+            <Label fx:id="randomNum" layoutX="278.0" layoutY="38.0" text="0" />
+            <TextField fx:id="addField" layoutX="325.0" layoutY="65.0" prefHeight="25.0" prefWidth="58.0" />
+            <TextField fx:id="subField" layoutX="326.0" layoutY="102.0" prefHeight="25.0" prefWidth="58.0" />
+            <TextField fx:id="multiField" layoutX="326.0" layoutY="145.0" prefHeight="25.0" prefWidth="58.0" />
+            <TextField fx:id="divField" layoutX="330.0" layoutY="181.0" prefHeight="25.0" prefWidth="54.0" />
+            <Button fx:id="tryAgainBtn" layoutX="76.0" layoutY="346.0" mnemonicParsing="false" text="Try Again" />
+            <Button fx:id="exitBtn" layoutX="337.0" layoutY="352.0" mnemonicParsing="false" text="Exit" />
+            <Button fx:id="submitBtn" layoutX="186.0" layoutY="238.0" mnemonicParsing="false" text="Submit" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
